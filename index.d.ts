@@ -21,6 +21,7 @@ import { IonicNativePlugin } from '@ionic-native/core';
  * ```
  */
 export declare class FoodlensOriginal extends IonicNativePlugin {
+    coolMethod(arg0: string): Promise<any>;
     launchFoodlensUI(): Promise<any>;
 }
 
